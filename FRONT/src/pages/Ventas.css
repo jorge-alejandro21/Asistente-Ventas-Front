@@ -1,0 +1,40 @@
+.ventas {
+  width: 100%;
+}
+
+.ventas-header {
+  margin-bottom: 2rem;
+}
+
+.ventas-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.ventas-content {
+  background-color: var(--surface);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.status-badge.completed {
+  background-color: #10b98120;
+  color: var(--success);
+}
+
+.status-badge.pending {
+  background-color: #f59e0b20;
+  color: var(--warning);
+}
+
